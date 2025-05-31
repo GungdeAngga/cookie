@@ -1,21 +1,21 @@
 <template>
-  <div>
+  <div class="min-h-screen flex flex-col">
     <header>
-      <div class="">
+      <div>
         <Header></Header>
       </div>
     </header>
     
     <main>
-      <slot></slot>
+      <div class="flex-1">
+        <slot></slot>
+      </div>
     </main>
   
     <footer>
-      <Footer></Footer>
+      <div class="pt-16">
+        <Footer></Footer>
+      </div>
     </footer>
   </div>
 </template>
-
-<script setup lang="ts">
-
-</script>
