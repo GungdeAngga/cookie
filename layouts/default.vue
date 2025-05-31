@@ -1,13 +1,15 @@
 <template>
   <div>
     <header>
-      <div class="">
+      <div>
         <Header></Header>
       </div>
     </header>
     
     <main>
-      <slot></slot>
+      <div>
+        <slot></slot>
+      </div>
     </main>
   
     <footer>
