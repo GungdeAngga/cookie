@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="min-h-screen flex flex-col">
     <header>
       <div>
         <Header></Header>
@@ -7,17 +7,15 @@
     </header>
     
     <main>
-      <div>
+      <div class="flex-1">
         <slot></slot>
       </div>
     </main>
   
     <footer>
-      <Footer></Footer>
+      <div class="pt-16">
+        <Footer></Footer>
+      </div>
     </footer>
   </div>
 </template>
-
-<script setup lang="ts">
-
-</script>
